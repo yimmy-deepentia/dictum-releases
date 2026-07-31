@@ -1,0 +1,79 @@
+{
+  "version": "0.1.5",
+  "notes": "Dictum ya puede actualizarse solo. Hasta esta version el actualizador apuntaba a un repositorio inalcanzable y ninguna descarga iba firmada, asi que la aplicacion rechazaba todas las actualizaciones que se le ofrecian. Ademas, el boton «Ver codigo fuente» ya lleva al codigo.",
+  "pub_date": "2026-07-31T22:21:30.366Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTWFJlS2xkTnk4MU9La1dDelp6MjZhTlBaMnphR09tN0lpcEl6dkVzTi9KVzBPam9WUk9zdXBZb0N2OFFNQWk5QkMyMnl3RExJU3lCNWNhY24vMVNuR1RPUFhrTUgxb1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NTM1NTU4CWZpbGU6RGljdHVtLmFwcC50YXIuZ3oKeXRDK3J6T3puYlR6MW50YW1ycDlEQVZicTI5dEtmRFN1V0pCZFZvZ3RDYmtVSzlMQkpSWVV0bDJCb21HenhJdVdHbHRVT2V1d0lNN3FYdCt1dVZtQVE9PQo=",
+      "url": "https://github.com/yimmy-deepentia/dictum-releases/releases/download/v0.1.5/Dictum_aarch64.app.tar.gz"
+    },
+    "darwin-aarch64-app": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTWFJlS2xkTnk4MU9La1dDelp6MjZhTlBaMnphR09tN0lpcEl6dkVzTi9KVzBPam9WUk9zdXBZb0N2OFFNQWk5QkMyMnl3RExJU3lCNWNhY24vMVNuR1RPUFhrTUgxb1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NTM1NTU4CWZpbGU6RGljdHVtLmFwcC50YXIuZ3oKeXRDK3J6T3puYlR6MW50YW1ycDlEQVZicTI5dEtmRFN1V0pCZFZvZ3RDYmtVSzlMQkpSWVV0bDJCb21HenhJdVdHbHRVT2V1d0lNN3FYdCt1dVZtQVE9PQo=",
+      "url": "https://github.com/yimmy-deepentia/dictum-releases/releases/download/v0.1.5/Dictum_aarch64.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTWFJlS2xkTnk4MURHRDg4L3oyNERKaDJPaUZaNkhnNDlYWUgxRUtwRFB4bklwR2U1UkZnaVYyWjNvZW93MEZLSzQrckZOcS9GcVhkZUZWNEhGaWFVbUxkMm81RDRFcmdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NTM1NjY0CWZpbGU6RGljdHVtLmFwcC50YXIuZ3oKOG5sR1ExZlUwTVRpZkJCQit1Ynhrd2xJTDNveEdRc3JWekZIYVZUYWFyUElMQVRya1dJYjcwYmdWWFBkOG5WOGUzT0FpMGZMV0dWL0IyeFJQL1pBQ2c9PQo=",
+      "url": "https://github.com/yimmy-deepentia/dictum-releases/releases/download/v0.1.5/Dictum_x64.app.tar.gz"
+    },
+    "darwin-x86_64-app": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTWFJlS2xkTnk4MURHRDg4L3oyNERKaDJPaUZaNkhnNDlYWUgxRUtwRFB4bklwR2U1UkZnaVYyWjNvZW93MEZLSzQrckZOcS9GcVhkZUZWNEhGaWFVbUxkMm81RDRFcmdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NTM1NjY0CWZpbGU6RGljdHVtLmFwcC50YXIuZ3oKOG5sR1ExZlUwTVRpZkJCQit1Ynhrd2xJTDNveEdRc3JWekZIYVZUYWFyUElMQVRya1dJYjcwYmdWWFBkOG5WOGUzT0FpMGZMV0dWL0IyeFJQL1pBQ2c9PQo=",
+      "url": "https://github.com/yimmy-deepentia/dictum-releases/releases/download/v0.1.5/Dictum_x64.app.tar.gz"
+    },
+    "windows-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTWFJlS2xkTnk4MVBYQVlTSDlZaEcvcldrZk5zbjAxM3F1WkQ0QWVFL1RFcXJ4cGJKQXdDT1JtaGNoQnJSdUY3L1p5VFVqQTJvdWY4V0Fic29UUndMTEw0OUhyOTdUTFFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NTM1OTU5CWZpbGU6RGljdHVtXzAuMS41X2FybTY0LXNldHVwLmV4ZQpuZlpLT1RKcjBLS0FuNHJJc2pXTmJSbzBWeXNMdlNTRDFWRlpNeFZkOWVmSkd1UllyU0E0YUtweFJMM1psYlFtVUhUOEVmT2Y0ZXhocTJrZGh4NWNEZz09Cg==",
+      "url": "https://github.com/yimmy-deepentia/dictum-releases/releases/download/v0.1.5/Dictum_0.1.5_arm64-setup.exe"
+    },
+    "windows-aarch64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTWFJlS2xkTnk4MUVnQ3BWMzF1OXNseEV5Q0RGRmZwVHZ2WEQ4Y1YraTBBelIzYnp5Rkg4MGhNZ2k3dXdIZE1za0k4U1VUL1gwZE52KzVDdjJ6UWJVNHYrK0owMGVlTndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NTM1OTU5CWZpbGU6RGljdHVtXzAuMS41X2FybTY0X2VuLVVTLm1zaQpyUEhzcmV0azdFQU5mdU03WUhSNjJkWVUyaWFMNkMrclVGL0J5Kzg4aCtCV09oVVo0M3NYazliSWhHb2JGcHVFcWppYmVyN3J2Tmt4OUlHcERzeW5CQT09Cg==",
+      "url": "https://github.com/yimmy-deepentia/dictum-releases/releases/download/v0.1.5/Dictum_0.1.5_arm64_en-US.msi"
+    },
+    "windows-aarch64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTWFJlS2xkTnk4MVBYQVlTSDlZaEcvcldrZk5zbjAxM3F1WkQ0QWVFL1RFcXJ4cGJKQXdDT1JtaGNoQnJSdUY3L1p5VFVqQTJvdWY4V0Fic29UUndMTEw0OUhyOTdUTFFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NTM1OTU5CWZpbGU6RGljdHVtXzAuMS41X2FybTY0LXNldHVwLmV4ZQpuZlpLT1RKcjBLS0FuNHJJc2pXTmJSbzBWeXNMdlNTRDFWRlpNeFZkOWVmSkd1UllyU0E0YUtweFJMM1psYlFtVUhUOEVmT2Y0ZXhocTJrZGh4NWNEZz09Cg==",
+      "url": "https://github.com/yimmy-deepentia/dictum-releases/releases/download/v0.1.5/Dictum_0.1.5_arm64-setup.exe"
+    },
+    "linux-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTWFJlS2xkTnk4MUM5Mnpjb2VIMjA2T2ZTZmhHZzA3aVI5ckU2eEFlOTNicXlUK0g1NEcyMm5EaFpXVWhDOVl4WDBFTFFVS2QrcHF6amU0ODdTUWtSc3BiU0U0L2Fnd0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NTM2MTE2CWZpbGU6RGljdHVtXzAuMS41X2FhcmNoNjQuQXBwSW1hZ2UKNCt5SGVJUng3bVh6OHdSbnc2ZGFETTMybEpwNkMwS2U3SDYwMFFCTWR0SVlTL0JveGZUV3dpMTdBY1VnL2YvaE5xL2lRNUVGWFFOYXZxaEdINXArQlE9PQo=",
+      "url": "https://github.com/yimmy-deepentia/dictum-releases/releases/download/v0.1.5/Dictum_0.1.5_aarch64.AppImage"
+    },
+    "linux-aarch64-appimage": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTWFJlS2xkTnk4MUM5Mnpjb2VIMjA2T2ZTZmhHZzA3aVI5ckU2eEFlOTNicXlUK0g1NEcyMm5EaFpXVWhDOVl4WDBFTFFVS2QrcHF6amU0ODdTUWtSc3BiU0U0L2Fnd0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NTM2MTE2CWZpbGU6RGljdHVtXzAuMS41X2FhcmNoNjQuQXBwSW1hZ2UKNCt5SGVJUng3bVh6OHdSbnc2ZGFETTMybEpwNkMwS2U3SDYwMFFCTWR0SVlTL0JveGZUV3dpMTdBY1VnL2YvaE5xL2lRNUVGWFFOYXZxaEdINXArQlE9PQo=",
+      "url": "https://github.com/yimmy-deepentia/dictum-releases/releases/download/v0.1.5/Dictum_0.1.5_aarch64.AppImage"
+    },
+    "linux-aarch64-deb": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTWFJlS2xkTnk4MUcvQ01jTTROVVVWN3YzdDRJQ2F1dERVanRodzhheEdOeU9tTnBGdk5ET2N4YU1qa0s4QUEwWVlZck51czlIZlZRaGQvQnEyNmxTamsvViszeDI1VVFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NTM2MTE2CWZpbGU6RGljdHVtXzAuMS41X2FybTY0LmRlYgpoclV6Sll4RS9oRklzL3pPQzFZOWl5czBlbFhXZUVYSjhEV05wZm9XYTd4UDdOWXl0cDZUQm8xS1hyZ2EwQ1NFNEtBNjhybWFtTXh4Y1dpZjA0ajlEQT09Cg==",
+      "url": "https://github.com/yimmy-deepentia/dictum-releases/releases/download/v0.1.5/Dictum_0.1.5_arm64.deb"
+    },
+    "linux-aarch64-rpm": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTWFJlS2xkTnk4MUNnWG5HdGM2c0l0OXQwcnNTcVJWanZaMVdyRlkvb2YvVnRBbEZ5TDZSY1FoV2pQMFNzTTNSZ1EyUnowSUdaQXJ5WThjdE1wWHVRRWpQWVU2QStTZEF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NTM2MTE2CWZpbGU6RGljdHVtLTAuMS41LTEuYWFyY2g2NC5ycG0KY2Zqd256alo2VEF4ak0ybUJKRlZKd290d2Yxd01oUzlyZVd3ck1BejRLMEhUcWRvNVpwMXFQUlFnK0w1NG1OUDFNekZDYVNZUFpyVlJMNWZxMTlQQVE9PQo=",
+      "url": "https://github.com/yimmy-deepentia/dictum-releases/releases/download/v0.1.5/Dictum-0.1.5-1.aarch64.rpm"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTWFJlS2xkTnk4MUprQ1lXS0taaXNmOHhCZXdDK24rYlV1dDBuMEc4NkpMVytxa3VIcHhTaUljZFZGS2dYQXBPYzZmRDFmbW1UWnMreTRqbXcwSDkvajJiWEIwOEZKSXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NTM2NDc3CWZpbGU6RGljdHVtXzAuMS41X2FtZDY0LkFwcEltYWdlCkJHZjlIQkcwMFRrRVBna1RBTlZ4Z1BqTjhheTJQdWFYZmlLQ042cmt1VEhEWnNjOTRJbC9ubUNyY0hQMll0UnB0K2g4Si9vbXVySWlucWx3WHpHN0JBPT0K",
+      "url": "https://github.com/yimmy-deepentia/dictum-releases/releases/download/v0.1.5/Dictum_0.1.5_amd64.AppImage"
+    },
+    "linux-x86_64-deb": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTWFJlS2xkTnk4MVA2NnhpaktkQ3dQamk1U2dldHJ6djkxNnlTRVQ1NUJJWU40MDBSSTR3YktYbjdGVDRnNDI4MFZ4VXlodEsxNFoyTERqRXowZnNsQzAvSm5ySTA1QWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NTM2MzAxCWZpbGU6RGljdHVtXzAuMS41X2FtZDY0LmRlYgpld3hzbTVBRFpwbDZwTE1adUtwSWQ2eGlyVmltTlFuN2dQajUvczArbDVDY1FIS3lsV2VNUGpkMzYyNUdlQkdwZWlxS0RSRTFYRVlTeE1JVlFnd1RDdz09Cg==",
+      "url": "https://github.com/yimmy-deepentia/dictum-releases/releases/download/v0.1.5/Dictum_0.1.5_amd64.deb"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTWFJlS2xkTnk4MUFRTnJKQi9ZckdRYmlNZmFOOVdrTHNYZEFKcGRrNzFqZjg0WXVEVlg4em11Ny9kcWFlb0x0aHp6eWpBNHVqTFloaldXRkVybVBUdG02em54b0U5NFFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NTM2NDA3CWZpbGU6RGljdHVtXzAuMS41X3g2NC1zZXR1cC5leGUKeUpqRmZLY3VUWU1HdWFXZGQ2NndlVE94RjRjc0hTNDhvL252ajR0VG5QU2RQSTVWREkxWmkwNnVBdHlCbnlPS1JIbTJUQ3l0S0NIV3o3N2xsNC9ZQ0E9PQo=",
+      "url": "https://github.com/yimmy-deepentia/dictum-releases/releases/download/v0.1.5/Dictum_0.1.5_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTWFJlS2xkTnk4MUQwMnJ0Y3RKTVFKS3RhT1dxUzBWRlZHVTgvQzZJeWF4Q25tNzV2NERyRWJLbkFZQS9XM0FMK2JVVllsbjRxVTRoc0ZCbUpVSTAxRS9EdmN4OFV5a3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NTM2NDA3CWZpbGU6RGljdHVtXzAuMS41X3g2NF9lbi1VUy5tc2kKVlRsMFVYeGFIS1NCenJFaWlycjNURjJIQ01UZjJYUU4vTHJYYzg1UzBiTjJKekEycmZXQzE3T1Z2WkJqQ0lqbkZ0SXczc3BjdEF1RTZyeS9lR09OQmc9PQo=",
+      "url": "https://github.com/yimmy-deepentia/dictum-releases/releases/download/v0.1.5/Dictum_0.1.5_x64_en-US.msi"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTWFJlS2xkTnk4MUFRTnJKQi9ZckdRYmlNZmFOOVdrTHNYZEFKcGRrNzFqZjg0WXVEVlg4em11Ny9kcWFlb0x0aHp6eWpBNHVqTFloaldXRkVybVBUdG02em54b0U5NFFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NTM2NDA3CWZpbGU6RGljdHVtXzAuMS41X3g2NC1zZXR1cC5leGUKeUpqRmZLY3VUWU1HdWFXZGQ2NndlVE94RjRjc0hTNDhvL252ajR0VG5QU2RQSTVWREkxWmkwNnVBdHlCbnlPS1JIbTJUQ3l0S0NIV3o3N2xsNC9ZQ0E9PQo=",
+      "url": "https://github.com/yimmy-deepentia/dictum-releases/releases/download/v0.1.5/Dictum_0.1.5_x64-setup.exe"
+    },
+    "linux-x86_64-appimage": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTWFJlS2xkTnk4MUprQ1lXS0taaXNmOHhCZXdDK24rYlV1dDBuMEc4NkpMVytxa3VIcHhTaUljZFZGS2dYQXBPYzZmRDFmbW1UWnMreTRqbXcwSDkvajJiWEIwOEZKSXc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NTM2NDc3CWZpbGU6RGljdHVtXzAuMS41X2FtZDY0LkFwcEltYWdlCkJHZjlIQkcwMFRrRVBna1RBTlZ4Z1BqTjhheTJQdWFYZmlLQ042cmt1VEhEWnNjOTRJbC9ubUNyY0hQMll0UnB0K2g4Si9vbXVySWlucWx3WHpHN0JBPT0K",
+      "url": "https://github.com/yimmy-deepentia/dictum-releases/releases/download/v0.1.5/Dictum_0.1.5_amd64.AppImage"
+    },
+    "linux-x86_64-rpm": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTWFJlS2xkTnk4MUFjSy90aVFuUzVhVDYrVVk2MGdEZTkzRTFzVGE4akdXREVFeW1adGV4SU5PWThSaENzYnA2anovVlVQemtab3duaU1vMVR2d1o4T0lzYmllUFZ1eFFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NTM2NDc3CWZpbGU6RGljdHVtLTAuMS41LTEueDg2XzY0LnJwbQpQbkI5RHVCU1V5bVdJeXVzMDY5YWEremN2YUhVQm1aQXczL1pxZHBpalJqZkhGclg4NjdlVW9YZWtYUW44d01zbGE2WnFXRWdzZFUxMGhYaWNUODlEUT09Cg==",
+      "url": "https://github.com/yimmy-deepentia/dictum-releases/releases/download/v0.1.5/Dictum-0.1.5-1.x86_64.rpm"
+    }
+  }
+}
