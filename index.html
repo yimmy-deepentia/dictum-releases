@@ -314,6 +314,23 @@
   .step .local { display: inline-block; margin-top: .7rem; font-family: var(--font-mono); font-size: .62rem; letter-spacing: .12em; text-transform: uppercase; color: var(--gold); border: 1px solid var(--hairline); border-radius: 999px; padding: .12rem .55rem; }
   .pipe-note { font-family: var(--font-mono); font-size: var(--s-1); color: var(--warm-gray); letter-spacing: .04em; margin-top: 1.5rem; text-align: center; }
 
+  /* ---- videos ---- */
+  .vidgrid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.4rem; }
+  @media (max-width: 860px) { .vidgrid { grid-template-columns: 1fr; } }
+  .vidcard { margin: 0; display: flex; flex-direction: column; background: var(--surface);
+    border: 1px solid var(--hairline); border-radius: 12px; overflow: hidden;
+    box-shadow: 0 24px 60px -40px var(--shadow); }
+  .vidcard video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9;
+    background: #000; border-bottom: 1px solid var(--hairline-soft); }
+  .vidmeta { padding: 1.4rem 1.5rem 1.6rem; display: flex; flex-direction: column; gap: .6rem; }
+  .vidtop { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
+  .vidtag { font-family: var(--font-mono); font-size: .68rem; letter-spacing: .14em;
+    text-transform: uppercase; color: var(--gold); }
+  .vidtime { font-family: var(--font-mono); font-size: .68rem; letter-spacing: .1em;
+    color: var(--warm-gray); white-space: nowrap; }
+  .vidmeta h3 { font-family: var(--font-body); font-size: 1.06rem; font-weight: 600; letter-spacing: 0; }
+  .vidmeta p { color: var(--ivory-dim); font-size: .94rem; line-height: 1.55; }
+
   /* ---- manifesto ---- */
   .manifest { text-align: center; }
   .manifest blockquote { margin: 0 auto; max-width: 24ch; font-family: var(--font-display); font-size: var(--s4); line-height: 1.12; font-weight: 600; }
@@ -376,6 +393,7 @@
       <a class="link" href="#prueba">La prueba</a>
       <a class="link" href="#porque">Por qué</a>
       <a class="link" href="#como">Cómo funciona</a>
+      <a class="link" href="#videos">Videos</a>
       <button class="theme-toggle" id="themeBtn" type="button" aria-label="Cambiar tema">Tema</button>
     </nav>
   </header>
@@ -542,6 +560,52 @@
         </div>
       </div>
       <p class="pipe-note">En ningún paso sale un solo byte de tu computadora</p>
+    </section>
+  </div>
+
+  <!-- ================= VIDEOS ================= -->
+  <div class="wrap">
+    <hr class="rule">
+    <section class="band" id="videos">
+      <div class="sec-head center reveal">
+        <p class="eyebrow" style="justify-content:center">En movimiento</p>
+        <h2>Míralo funcionando.</h2>
+        <p class="lede">Dos videos cortos, grabados con la app de verdad: qué hace Dictum y qué tienes que tocar la primera vez.</p>
+      </div>
+      <div class="vidgrid reveal" style="margin-top:2.4rem">
+
+        <figure class="vidcard">
+          <video controls playsinline preload="metadata" poster="video/portada-venta.jpg" width="1920" height="1080">
+            <source src="video/dictum-venta.mp4" type="video/mp4">
+            <p>Tu navegador no puede reproducir el video. <a href="video/dictum-venta.mp4">Descárgalo aquí</a>.</p>
+          </video>
+          <figcaption class="vidmeta">
+            <div class="vidtop">
+              <span class="vidtag">Qué es Dictum</span>
+              <span class="vidtime">1:07</span>
+            </div>
+            <h3>Hablas y aparece escrito, sin nube</h3>
+            <p>El dictado y la limpieza con IA ocurren dentro del equipo. Al final se ve la prueba en pantalla: las conexiones a internet de Dictum mientras trabaja, en cero.</p>
+          </figcaption>
+        </figure>
+
+        <figure class="vidcard">
+          <video controls playsinline preload="metadata" poster="video/portada-tutorial.jpg" width="1920" height="1080">
+            <source src="video/dictum-tutorial.mp4" type="video/mp4">
+            <p>Tu navegador no puede reproducir el video. <a href="video/dictum-tutorial.mp4">Descárgalo aquí</a>.</p>
+          </video>
+          <figcaption class="vidmeta">
+            <div class="vidtop">
+              <span class="vidtag">Ya lo instalaste</span>
+              <span class="vidtime">1:40</span>
+            </div>
+            <h3>Lo único que tienes que tocar</h3>
+            <p>Recorrido por la app real: los dos atajos de fábrica, elegir modelo, dictar, dejar que la IA local lo ordene y dónde queda guardado.</p>
+          </figcaption>
+        </figure>
+
+      </div>
+      <p class="pipe-note">Narración en español · el metraje es la app corriendo de verdad</p>
     </section>
   </div>
 
@@ -860,6 +924,14 @@
       else toast("El instalador de Windows se publica muy pronto. (Enlace pendiente de conectar.)");
     });
     applyPlatform(block, initialOS);
+  });
+
+  /* ---------- videos: solo uno suena a la vez ---------- */
+  var vids = [].slice.call(document.querySelectorAll("#videos video"));
+  vids.forEach(function (v) {
+    v.addEventListener("play", function () {
+      vids.forEach(function (o) { if (o !== v && !o.paused) o.pause(); });
+    });
   });
 })();
 </script>
