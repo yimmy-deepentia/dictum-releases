@@ -423,7 +423,7 @@
           </a>
           <a class="btn btn-ghost" href="#prueba">Ver la demo ↓</a>
         </div>
-        <p class="dl-meta" data-dl-meta>Windows 10 / 11 · v0.1.5 · ~39&nbsp;MB</p>
+        <p class="dl-meta" data-dl-meta>Windows 10 / 11 · v0.1.6 · ~39&nbsp;MB</p>
       </div>
       <p class="dl-note">Primer arranque: descarga los modelos de IA una sola vez. Después, funciona 100% sin conexión.</p>
     </section>
@@ -639,7 +639,7 @@
               <span data-dl-label>Descargar para Windows</span>
             </a>
           </div>
-          <p class="dl-meta" data-dl-meta>Windows 10 / 11 · v0.1.5 · ~39&nbsp;MB</p>
+          <p class="dl-meta" data-dl-meta>Windows 10 / 11 · v0.1.6 · ~39&nbsp;MB</p>
         </div>
 
         <div class="badges">
@@ -884,13 +884,13 @@
     linux: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="15" rx="2"/><path d="m7 9 3 2.5L7 14"/><path d="M13 14h4"/></svg>'
   };
   var REL = "https://github.com/yimmy-deepentia/dictum-releases/releases/download/";
-  // Los tres sistemas van ya al mismo tag v0.1.5. Se fija el tag explícito en vez
+  // Los tres sistemas van ya al mismo tag v0.1.6. Se fija el tag explícito en vez
   // de /latest/download para que la página no se rompa si algún release futuro
   // vuelve a ser parcial (sin assets de todas las plataformas).
   var PLAT = {
-    win:   { tab: "win",   label: "Descargar para Windows", meta: "Windows 10 / 11 · x64 · v0.1.5 · ~39 MB", ready: true, url: REL + "v0.1.5/Dictum_0.1.5_x64-setup.exe" },
-    mac:   { tab: "mac",   label: "Descargar para macOS",   meta: "macOS 12+ · Apple Silicon · v0.1.5 · ~22 MB", ready: true, url: REL + "v0.1.5/Dictum_0.1.5_aarch64.dmg" },
-    linux: { tab: "linux", label: "Descargar para Linux",   meta: "AppImage x86-64 · v0.1.5 · ~130 MB", ready: true, url: REL + "v0.1.5/Dictum_0.1.5_amd64.AppImage" }
+    win:   { tab: "win",   label: "Descargar para Windows", meta: "Windows 10 / 11 · x64 · v0.1.6 · ~39 MB", ready: true, url: REL + "v0.1.6/Dictum_0.1.6_x64-setup.exe" },
+    mac:   { tab: "mac",   label: "Descargar para macOS",   meta: "macOS 12+ · Apple Silicon · v0.1.6 · ~22 MB", ready: true, url: REL + "v0.1.6/Dictum_0.1.6_aarch64.dmg" },
+    linux: { tab: "linux", label: "Descargar para Linux",   meta: "AppImage x86-64 · v0.1.6 · ~130 MB", ready: true, url: REL + "v0.1.6/Dictum_0.1.6_amd64.AppImage" }
   };
   function detectOS() {
     var s = (navigator.userAgent + " " + (navigator.platform || "")).toLowerCase();
